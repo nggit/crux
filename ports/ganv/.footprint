@@ -1,0 +1,36 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/ganv_bench
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/ganv-1/
+drwxr-xr-x	root/root	usr/include/ganv-1/ganv/
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Box.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Canvas.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Circle.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Edge.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Item.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Module.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Node.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/Port.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/box.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/canvas.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/circle.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/edge.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/ganv.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/ganv.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/group.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/item.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/module.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/node.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/port.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/text.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/types.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/types.hpp
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/widget.h
+-rw-r--r--	root/root	usr/include/ganv-1/ganv/wrap.hpp
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libganv-1.so -> libganv-1.so.1.6.0
+lrwxrwxrwx	root/root	usr/lib/libganv-1.so.1 -> libganv-1.so.1.6.0
+-rwxr-xr-x	root/root	usr/lib/libganv-1.so.1.6.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/ganv-1.pc

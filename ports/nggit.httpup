@@ -1,0 +1,8 @@
+#
+# /etc/ports/nggit.httpup: nggit's port collection
+#
+
+ROOT_DIR=/usr/ports/nggit
+URL=https://crux.anggit.com/ports/
+
+# End of file

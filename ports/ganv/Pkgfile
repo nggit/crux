@@ -1,0 +1,16 @@
+# Description: Ganv is a Gtk widget for interactive graph-like environments, such as modular synthesizers or finite state machines.
+# URL:         https://drobilla.net/software/ganv
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  gtkmm libsigc++
+
+name=ganv
+version=1.6.0
+release=1
+source=(http://download.drobilla.net/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+  ./waf configure --prefix=/usr
+  ./waf
+  ./waf install --destdir=$PKG
+}
