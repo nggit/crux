@@ -6,11 +6,11 @@
 name=patchage
 version=1.0.2
 release=1
-source=(http://download.drobilla.net/$name-$version.tar.bz2)
+source=(https://download.drobilla.net/$name-$version.tar.bz2)
 
 build() {
-  cd $name-$version
-  ./waf configure --prefix=/usr
-  ./waf
-  ./waf install --destdir=$PKG
+	cd $name-$version
+	./waf configure --prefix=/usr
+	./waf
+	./waf install --destdir=$PKG
 }

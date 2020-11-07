@@ -1,0 +1,19 @@
+# Description: PRoot is a user-space implementation of chroot, mount --bind, and binfmt_misc.
+# URL:         https://proot-me.github.io/
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  talloc
+
+name=proot
+version=5.1.0
+release=1
+source=(https://github.com/proot-me/$name/archive/v$version.tar.gz \
+	disable-seccomp.patch \
+	fix-use-of-size.patch)
+
+build() {
+	patch -p1 -d $name-$version -i $SRC/disable-seccomp.patch
+	patch -p1 -d $name-$version -i $SRC/fix-use-of-size.patch
+	cd $name-$version/src
+	make
+	make DESTDIR=$PKG/usr/bin install
+}

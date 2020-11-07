@@ -1,0 +1,31 @@
+See: https://github.com/proot-me/PRoot/pull/108
+
+--- a/src/execve/enter.c
++++ b/src/execve/enter.c
+@@ -454,10 +454,10 @@
+ }
+ 
+ extern unsigned char _binary_loader_exe_start;
+-extern unsigned char _binary_loader_exe_size;
++extern unsigned char _binary_loader_exe_end;
+ 
+ extern unsigned char WEAK _binary_loader_m32_exe_start;
+-extern unsigned char WEAK _binary_loader_m32_exe_size;
++extern unsigned char WEAK _binary_loader_m32_exe_end;
+ 
+ /**
+  * Extract the built-in loader.  This function returns NULL if an
+@@ -483,11 +483,11 @@
+ 
+ 	if (wants_32bit_version) {
+ 		start = (void *) &_binary_loader_m32_exe_start;
+-		size  = (size_t) &_binary_loader_m32_exe_size;
++		size  = (size_t) (&_binary_loader_m32_exe_end-&_binary_loader_m32_exe_start);
+ 	}
+ 	else {
+ 		start = (void *) &_binary_loader_exe_start;
+-		size  = (size_t) &_binary_loader_exe_size;
++		size  = (size_t) (&_binary_loader_exe_end-&_binary_loader_exe_start);
+ 	}
+ 
+ 	status2 = write(fd, start, size);

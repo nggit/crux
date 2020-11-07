@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/nggit.pub
-RWTKKSGIyKile1UAF99x8ez01c0w1L/5CAJsP70Cc3m9/yHv5bTMWBYHbtMBBinCncGAgsMk6CquEZuzDGgAtmLtASCvFVEHFw8=
-SHA256 (Pkgfile) = 34d58d951f226cf0c2384b4e6baca7a65287e4b6b3d037cf7139bec92bb43842
+RWTKKSGIyKile+WlRgWDJNO+ca6F7Zr/JO67+rZGQXrnqCNEIgxzbriSzlN4miCGDXr/wLyoR7uf3jAypOrkwV0yJwQ+dY6oJQ8=
+SHA256 (Pkgfile) = bdc09f3caebc71c4e14a153f9edecc365a8a8d5b03f14401c9487e65a87e1da8
 SHA256 (.footprint) = 71c0b5a729eae2453251fbfee24dd88d41c0286c9c8a10dc26aa22e9c0fe7ea7
 SHA256 (patchage-1.0.2.tar.bz2) = c6eb9558f3de0968396744241e053b843d7fbe37020cad791da882c054746336

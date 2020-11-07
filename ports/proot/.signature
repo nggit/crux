@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/nggit.pub
+RWTKKSGIyKile4otgW5sdLOcnxMI3OgMM4G98RM4gN2/LMGGwJt4XpAItlFVaGPyfZm630je1V2jKejMYXmf3y1GuafdqjVG0AQ=
+SHA256 (Pkgfile) = ef31fa4d5d3a55f6fa66daecddfab636ad6219d2dea9862a81916387a1d53f94
+SHA256 (.footprint) = 389a23297c365368e85ec4d79470dfa35071b51669467670b7dfa878c73f9299
+SHA256 (v5.1.0.tar.gz) = ce0a3baca8312613bd10f65bb436a3aaa28e1034f498a22c35ad0693600e01dd
+SHA256 (disable-seccomp.patch) = 7f6378ec6a183ee46e0c186f72708ed1944a665ee605c2b72788f72ef08982db
+SHA256 (fix-use-of-size.patch) = 4356ae7c2a2575900076eca1365616edf61306bbddcd8ef0d8d88cabf725dfd4
