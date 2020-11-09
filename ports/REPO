@@ -1,7 +1,7 @@
 d:proot
 d:patchage
+d:eq10q
 d:ganv
-f:19e8cb4cfb9238d8ccae518366913868:nggit.pub
 f:72e9b19a096c81b0a29a1c7d32c63b68:proot/.footprint
 f:ea9a7020bdc96495063a7dbb1bf447fa:proot/.signature
 f:efb9880a87f6b990b66cfb2e43be1b54:proot/Pkgfile
@@ -10,7 +10,12 @@ f:8fdfc8a263459f3e12785dd2665c1d34:proot/disable-seccomp.patch
 f:fb0c850587dee36b3ef8fd762667ecef:patchage/.footprint
 f:f3f0c8dc5f338b72c74bef5ae94c8a93:patchage/.signature
 f:de96be7ba3e5b182d7a63d60c10c8aba:patchage/Pkgfile
-f:67b158281820bdee820a52af026f8e97:nggit.httpup
+f:6d6df5ddf2774f573bc7bcbc46ba5193:eq10q/.footprint
+f:c1129d2218fd34004c44670d7da693fc:eq10q/pow10.patch
+f:e2784b75d19145b8539f116fcfafc05b:eq10q/fix-prefix.patch
+f:041fb99480e3e7813d2e5c9fbf9b68f8:eq10q/.signature
+f:f4001514f8fa41bb593f6f925d96b826:eq10q/Pkgfile
+f:da6d0e1be29c63b92c400cc384bef91d:eq10q/fix-lv2-types.patch
 f:537aa90d26fee63f6d720298589c974c:ganv/.footprint
 f:d9ba6d46ed27f0e5249c207a259ed507:ganv/.signature
 f:42c16180d46f84aaf6ec4db0eb3acd7d:ganv/Pkgfile

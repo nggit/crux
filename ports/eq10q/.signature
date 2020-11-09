@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/nggit.pub
+RWTKKSGIyKilexWC1wrF5HbfPxz/GcG6wP5HjmqGWB6ngAAXN8spMH7Jx3dSUMaIVYBwHcx/XDuB5POZtUIIsmHVLUPuHVxgTgE=
+SHA256 (Pkgfile) = 102e0c15da8bd994613c93a52c15233d03409b5f42aec1ecaa3ff77a3851ff7c
+SHA256 (.footprint) = 1b1f2692e0b6cfe5d243bf14bbf6bd7ad04f53703d25485df643451392cf3a23
+SHA256 (eq10q_2.2~repack0.orig.tar.gz) = c1a7d602a9c717bfd1cc6b5963bd4fbbab1e44ebc024216f82cc6af3a3082654
+SHA256 (fix-prefix.patch) = 2677a36a0acdcf6536b94d21505c6aeab7f0a8b89797379025556a04bc289744
+SHA256 (pow10.patch) = e8490cc7b4bb8cdd047c0dbba33f5ba95a67cc18d2a01825f7588541e04dcb51
+SHA256 (fix-lv2-types.patch) = dc329e0f0c6e6d7a1fa263ee6868500c420bf732d71a085dcf81f488480e0ecf

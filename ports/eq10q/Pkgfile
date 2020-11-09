@@ -1,0 +1,22 @@
+# Description: EQ10Q is an audio plugin bundle over the LV2 standard (http://lv2plug.in)
+# URL:         http://eq10q.sourceforge.net/
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  fftw gtkmm lv2
+
+name=eq10q
+version=2.2
+release=1
+source=(https://deb.debian.org/debian/pool/main/e/$name/${name}_$version~repack0.orig.tar.gz \
+	fix-prefix.patch \
+	pow10.patch \
+	fix-lv2-types.patch)
+
+build() {
+	cd $name-$version
+	patch -p1 -i $SRC/fix-prefix.patch
+	patch -p1 -i $SRC/pow10.patch
+	patch -p1 -i $SRC/fix-lv2-types.patch
+	cmake ./
+	make
+	make DESTDIR=$PKG install
+}
