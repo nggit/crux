@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/jalv
+-rwxr-xr-x	root/root	usr/bin/jalv.gtk
+-rwxr-xr-x	root/root	usr/bin/jalv.gtk3
+-rwxr-xr-x	root/root	usr/bin/jalv.gtkmm
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/jack/
+-rwxr-xr-x	root/root	usr/lib/jack/jalv.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/jalv.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/jalv.gtk.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/jalv.gtkmm.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/jalv.qt.1.gz

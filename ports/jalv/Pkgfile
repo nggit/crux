@@ -1,0 +1,16 @@
+# Description: Jalv is a simple but fully featured LV2 host for Jack.
+# URL:         https://drobilla.net/software/jalv
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  gtkmm jack-audio-connection-kit lilv lv2 serd sord sratom suil
+
+name=jalv
+version=1.6.4
+release=1
+source=(https://download.drobilla.net/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./waf configure --prefix=/usr --no-qt
+	./waf
+	./waf install --destdir=$PKG
+}
