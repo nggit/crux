@@ -1,4 +1,5 @@
 d:proot
+d:lingot
 d:patchage
 d:jalv
 d:eq10q
@@ -8,6 +9,9 @@ f:ea9a7020bdc96495063a7dbb1bf447fa:proot/.signature
 f:efb9880a87f6b990b66cfb2e43be1b54:proot/Pkgfile
 f:37e783d3b1aaf42cd6381c7cc9d65cf0:proot/fix-use-of-size.patch
 f:8fdfc8a263459f3e12785dd2665c1d34:proot/disable-seccomp.patch
+f:20c12a430b5d13d10e5e9ecda14114ef:lingot/.footprint
+f:389ec5e440dbc3491417f920f91c4d34:lingot/.signature
+f:b20adcf5e057f66e3960c8a4fdab90a0:lingot/Pkgfile
 f:fb0c850587dee36b3ef8fd762667ecef:patchage/.footprint
 f:f3f0c8dc5f338b72c74bef5ae94c8a93:patchage/.signature
 f:de96be7ba3e5b182d7a63d60c10c8aba:patchage/Pkgfile

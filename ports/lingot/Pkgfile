@@ -1,0 +1,17 @@
+# Description: LINGOT is a musical instrument tuner. It's accurate, easy to use, and highly configurable. Originally conceived to tune electric guitars, it can now be used to tune other instruments.
+# URL:         https://www.nongnu.org/lingot/
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  fftw gtk3 jack-audio-connection-kit pulseaudio
+
+name=lingot
+version=1.1.1
+release=1
+source=(https://download.savannah.gnu.org/releases/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --disable-nls --disable-shared
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/{include,lib,share/doc}
+}
