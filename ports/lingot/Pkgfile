@@ -12,6 +12,5 @@ build() {
 	cd $name-$version
 	./configure --prefix=/usr --disable-nls --disable-shared
 	make
-	make DESTDIR=$PKG install
-	rm -r $PKG/usr/{include,lib,share/doc}
+	make DESTDIR=$PKG pkginclude_HEADERS= lib_LTLIBRARIES= pkgexecconfig_DATA= dist_doc_DATA= install
 }
