@@ -1,0 +1,13 @@
+# Description: prmck is a tool for CRUX that allows you to check if any file system permissions are broken or different from the original (.footprint).
+# URL:         https://github.com/nggit/prmck
+# Maintainer:  nggit, contact at anggit dot com
+# Depends on:  prt-get
+
+name=prmck
+version=0.0.1
+release=1
+source=(https://github.com/nggit/$name/archive/refs/tags/$version.tar.gz)
+
+build() {
+	install -Dt $PKG/usr/bin $name-$version/prmck
+}
