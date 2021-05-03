@@ -4,7 +4,7 @@
 # Depends on:  prt-get
 
 name=prmck
-version=0.0.1
+version=0.0.2
 release=1
 source=(https://github.com/nggit/$name/archive/refs/tags/$version.tar.gz)
 
